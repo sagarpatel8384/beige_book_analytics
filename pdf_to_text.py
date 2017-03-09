@@ -1,4 +1,3 @@
-import sys
 from io import StringIO
 from pdfminer.pdfparser import PDFParser
 from pdfminer.pdfpage import PDFPage
@@ -35,13 +34,5 @@ class TextParser(object):
 
         for line in lines:
             self.output_text += line
-
-
-if __name__ == '__main__':
-    p = TextParser(sys.argv[1])
-    output = open('output.txt', 'w')
-    output.write(p.output_text)
-    output.close()
-
 
 
