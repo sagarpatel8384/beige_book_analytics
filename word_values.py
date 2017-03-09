@@ -1,4 +1,11 @@
 class WordValues:
+    """
+    The Word Values Class is a namespace for the word/value pairs.
+    This class is not intended to be instantiated; rather, its purpose
+    is to act as a namespace to access the word_values dictionary without
+    polluting the global scope.
+    """
+
     word_values = {
         "strong": (1, ['strong', 'robust', 'considerable', 'upbeat', 'brisk', 'surge']),
         "normal": (0.75, ['normal', 'solid', 'steady']),
