@@ -22,7 +22,8 @@ class AnalyzeText:
         for word in normalized_text_tuple:
             if word in WordValues.keyword_values:
                 keyword_count[word] = 1 if keyword_count.get(word) == None else keyword_count[word] + 1
-                keyword_values[word] = WordValues.keyword_values[word] if keyword_values.get(word) == None else keyword_values[word] + WordValues.keyword_values[word]
+                keyword_values[word] = WordValues.keyword_values[word] if keyword_values.get(word) == None \
+                    else keyword_values[word] + WordValues.keyword_values[word]
 
         return (keyword_values, keyword_count)
 
