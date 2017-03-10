@@ -1,4 +1,3 @@
-# Beige Book Analytics
+# Sentimenter
 
-Beige Book Analytics is an application that analyzes the federal reserve beige book. The resulting analysis includes an overall sentiment score based on words used and charts visualizing sentiment.
-
+Sentimenter is a tool for extracting information from various forms of textual data sources (e.g., pdf, html, txt) and calculating sentiment scores and creating charts and graphs visualizing that information.
